@@ -1,5 +1,2 @@
-const menu = {
-  seletor: '.principal',
-};
-
-console.log(menu.seletor);
+const uppterName = (name) => name.toUpperCase();
+console.log(uppterName('Jackson'));

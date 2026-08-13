@@ -21,8 +21,19 @@
 
    <script type="text/babel">
 
+      function Button() {
+         return <button>Adicionar</button>
+      }
+
       function App() {
-         return <div>Teste</div>
+         return <div>
+            <h1>Aplicativo React</h1>
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+            <Button />
+         </div>
       }
 
       const container = document.getElementById('root');
